@@ -1,0 +1,30 @@
+{
+  "name": "benchassignment",
+  "version": "1.0.0",
+  "description": "\"# BenchAssignment\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "specRunner.html",
+    "e2e": "protractor spec/support/conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/02sonali/BenchAssignment.git"
+  },
+  "keywords": [
+    "jasmine",
+    "protractor"
+  ],
+  "author": "Sonali Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/02sonali/BenchAssignment/issues"
+  },
+  "homepage": "https://github.com/02sonali/BenchAssignment#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "jasmine": "^3.5.0",
+    "protractor": "^5.4.4"
+  }
+}

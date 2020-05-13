@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title> Practice Assignment </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <div>
+            <h2 id="heading">Login</h2>
+            <div>
+                <input id="username" type="text" placeholder="Username"/></br>
+            </div>
+            <div>
+                <input id="password" type="password" placeholder="Password" style="margin-top:20px;"/>
+            </div>
+            <button id="login-button" onclick="validateLogin(document.getElementById('username').value, document.getElementById('password').value)" style="margin-top:20px;"> Login </button>
+            <div style="margin-top:20px;">
+                <span id="error-msg" style="color:red;display:none;">Please enter the required fields</span>
+                <span id="invalid-msg" style="color:red;display:none;">Invalid username or password</span>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
